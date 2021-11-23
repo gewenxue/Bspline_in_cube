@@ -31,7 +31,7 @@
 
 **3、实现方案**：
  在二维上绘制b样条曲线，将绘制完成的窗口保存为bmp图片，绘制三维立方体，将带有名字的bmp图片作为纹理贴在立方体上进行展示。
-**4.其它：**
+**4、其它：**：
  演示：演示录屏_Bspline_in_cube_葛文雪.mp4
  运行：Bspline_in_cube/Bspline_in_cube.sln
  运行环境：VS2010+OpenGL(glut,glui-2.35,glew-2.1.0,glAux)
