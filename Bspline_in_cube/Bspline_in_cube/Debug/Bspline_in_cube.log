@@ -1,0 +1,43 @@
+﻿生成启动时间为 2021/10/27 21:51:36。
+     1>项目“E:\Users\Desktop\Bspline_in_cube\Bspline_in_cube\Bspline_in_cube.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\Bspline_in_cube.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\Bspline_in_cube.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\Bspline_in_cube.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Bspline_in_cube.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Bspline_in_cube.cpp
+         Bspline_in_cube.cpp
+     1>e:\users\desktop\bspline_in_cube\bspline_in_cube\bspline_in_cube.cpp(63): warning C4091: “typedef ”: 没有声明变量时忽略“Point”的左侧
+     1>e:\users\desktop\bspline_in_cube\bspline_in_cube\bspline_in_cube.cpp(460): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\users\desktop\bspline_in_cube\bspline_in_cube\bspline_in_cube.cpp(467): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\users\desktop\bspline_in_cube\bspline_in_cube\bspline_in_cube.cpp(490): warning C4101: “rc”: 未引用的局部变量
+     1>e:\users\desktop\bspline_in_cube\bspline_in_cube\bspline_in_cube.cpp(488): warning C4101: “clnHeight”: 未引用的局部变量
+     1>e:\users\desktop\bspline_in_cube\bspline_in_cube\bspline_in_cube.cpp(488): warning C4101: “clnWidth”: 未引用的局部变量
+     1>e:\users\desktop\bspline_in_cube\bspline_in_cube\bspline_in_cube.cpp(514): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Bspline_in_cube.exe.embed.manifest.res" Debug\Bspline_in_cube_manifest.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Users\Desktop\Bspline_in_cube\Debug\Bspline_in_cube.exe" /INCREMENTAL /NOLOGO glui32.lib opengl32.lib glut32.lib glu32.lib glew32.lib glew32s.lib glaux.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Bspline_in_cube.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Users\Desktop\Bspline_in_cube\Debug\Bspline_in_cube.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Users\Desktop\Bspline_in_cube\Debug\Bspline_in_cube.lib" /MACHINE:X86 Debug\Bspline_in_cube.exe.embed.manifest.res
+         Debug\Bspline_in_cube.obj
+         Debug\stdafx.obj
+       Manifest:
+         正在删除文件“Debug\Bspline_in_cube.exe.embed.manifest”。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Bspline_in_cube.exe.embed.manifest" /manifest Debug\Bspline_in_cube.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Bspline_in_cube.exe.embed.manifest.res" Debug\Bspline_in_cube_manifest.rc 
+       LinkEmbedManifest:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Users\Desktop\Bspline_in_cube\Debug\Bspline_in_cube.exe" /INCREMENTAL /NOLOGO glui32.lib opengl32.lib glut32.lib glu32.lib glew32.lib glew32s.lib glaux.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Bspline_in_cube.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Users\Desktop\Bspline_in_cube\Debug\Bspline_in_cube.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Users\Desktop\Bspline_in_cube\Debug\Bspline_in_cube.lib" /MACHINE:X86 Debug\Bspline_in_cube.exe.embed.manifest.res
+         Debug\Bspline_in_cube.obj
+         Debug\stdafx.obj
+         Bspline_in_cube.vcxproj -> E:\Users\Desktop\Bspline_in_cube\Debug\Bspline_in_cube.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Bspline_in_cube.unsuccessfulbuild”。
+         正在对“Debug\Bspline_in_cube.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Users\Desktop\Bspline_in_cube\Bspline_in_cube\Bspline_in_cube.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.85
